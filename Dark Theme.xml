@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style-scheme id="darkTheme" _name="DarkTheme" version="1.0">
+    <author>Bernabé Suarez</author>
+    <_description>Color scheme for Dark Theme XED </_description>
+  
+    <!-- Theme Colors -->
+    <color name="Dark_BG" value="#1E2127" />
+    <color name="Dark_FG" value="#CBEDC0" />
+    <color name="Dark_SELECTION" value="#62735D" />
+    <color name="Dark_COMMENT" value="#98C379" />
+    <color name="Dark_CYAN" value="#56B6C2" />
+    <color name="Dark_GREEN" value="#0ead69" />
+    <color name="Dark_ORANGE" value="#ff9505" />
+    <color name="Dark_PINK" value="#FC5185" />
+    <color name="Dark_PURPLE" value="#C678DD" />
+    <color name="Dark_RED" value="#E06C75" />
+    <color name="Dark_YELLOW" value="#D19A66" />
+
+    <color name="Dark_BGLight" value="#003249" />
+
+    <!-- Global Settings -->
+    <style name="text"
+           foreground="Dark_FG"
+           background="Dark_BG" />
+    <style name="selection"
+           background="Dark_SELECTION" />
+    <style name="cursor"
+           foreground="Dark_FG"/>
+    <style name="secondary-cursor"
+           foreground="Dark_FG"/>
+    <style name="current-line"
+           background="Dark_BGLight"/>
+    <style name="line-numbers"
+           foreground="Dark_COMMENT"
+           background="Dark_BG" />
+    <style name="background-pattern"
+           background="Dark_BG"/>
+
+    <!-- Bracket Matching -->
+    <style name="bracket-match"
+           foreground="Dark_FG"
+           background="Dark_SELECTION"/>
+    <style name="bracket-mismatch"
+           foreground="Dark_RED"
+           background="Dark_SELECTION"/>
+
+    <!-- Right Margin -->
+    <style name="right-margin"
+           foreground="Dark_COMMENT"
+           background="Dark_BG"/>
+    
+    <!-- Search Matching -->
+    <style name="search-match"
+           foreground="Dark_ORANGE"
+           background="Dark_BGLight"/>
+
+    <!-- Comments -->
+    <style name="def:comment"
+           foreground="Dark_COMMENT"/>
+    <style name="def:shebang"
+           foreground="Dark_COMMENT"
+           bold="true"/>
+    <style name="def:doc-comment-element"
+           italic="true"/>
+
+    <!-- Constants -->
+    <style name="def:constant"
+           foreground="Dark_YELLOW"/>
+    <style name="def:special-char"
+           foreground="Dark_PINK"/>
+    <style name="def:number"
+           foreground="Dark_PURPLE" />
+
+    <!-- Identifiers -->
+    <style name="def:identifier"
+           foreground="Dark_RED"/>
+
+    <!-- Statements -->
+    <style name="def:statement"
+           foreground="Dark_PINK"/>
+
+    <!-- Types -->
+    <style name="def:type"
+           foreground="Dark_GREEN"/>
+
+    <!-- Operators -->
+    <style name="def:operator"
+           foreground="Dark_PINK"/>
+
+    <!-- Others -->
+    <style name="def:preprocessor"
+           foreground="Dark_PINK"/>
+    <style name="def:error"
+           foreground="Dark_RED"
+           bold="true"/>
+    <style name="def:note"
+           foreground="Dark_COMMENT"
+           background="Dark_FG"/>
+    <style name="def:underlined"
+           italic="true"
+           underline="single"/>
+
+</style-scheme>
